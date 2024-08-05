@@ -36,6 +36,7 @@ const Navbar = () => {
           width={"100%"}
         >
           <Box display={"flex"}>
+          <Link to="/" style={{ textDecoration: 'none' }}>
             <IconButton
               size="large"
               edge="start"
@@ -45,6 +46,7 @@ const Navbar = () => {
             >
               <img src={logo} alt="Logo" style={{ width: 80, height: 80 }} />
             </IconButton>
+          </Link>
 
             <Box sx={{ display: "flex" ,gap:6}}>
               <Button
